@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/* Header  */
+
+header {
+  background-color: #f55a5a;
+  text-align: center;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.content p {
+  color: white;
+}
+
+/* Card  */
+
+.card {
+  max-width: 450px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+.image {
+  width: 125px;
+  height: 168px;
+  border-radius: 5px;
+}
+
+.info {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.info .address {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+
+.info .address .country {
+  font-size: 10px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 3px 0;
+  text-transform: uppercase;
+}
+
+.info .address a {
+  font-size: 10px;
+  color: #918e9b;
+  margin-left: 5px;
+  letter-spacing: 0.4px;
+}
+
+.info .location {
+  font-size: 25px;
+  margin-top: 0;
+  margin-bottom: 14px;
+}
+
+.info .duration {
+  margin: 0;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.info .detail {
+  font-size: 10px;
+}
